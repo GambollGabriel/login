@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /*background-image: url("../IMAGEM/x-jin3.jpeg");
+    background-position: 50% 90%;*/
+    background-color: black;
+    color: rgb(255, 255, 255);/*tilulo*/
+    font-family: arial;
+}
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border:1.2px solid rgb(255, 255, 255); /*borda*/
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255,0.01);
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+div#corpo-form{
+    /*background-color: red;*/
+     width: 420px;
+    margin: 80px auto 0px auto;
+}
+div#corpo-form-cad
+{
+width: 420px;
+margin: 80px auto 0px auto;
+}
+div#corpo-form h1,div#corpo-form-cad h1
+{
+    text-align: center;
+    padding: 10px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+     display: block;
+}
+a:hover{
+text-decoration: underline;
+}
+input[type=submit]{
+     background-color: #ca0000;
+     border: none;
+     cursor: pointer;
+}
+
+::-webkit-input-placeholder{/*webkit browsers */
+    color: rgb(255, 255, 255);
+}
+
+:-moz-placeholder{ /*mozilla firefox 4 to 18 */
+color: rgb(255, 255, 255);
+}
+::-moz-placeholder{/*mozilla firefox 19+ */
+color: rgb(255, 255, 255);
+}
+:-ms-input-placeholder{/*internet explorer 10+ */
+color: rgb(255, 255, 255);
+}
+
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(0, 184, 0, 0.829);   
+    border: 1px solid rbg(34,139,34);
+}
+
+div.msg-erro{
+    width: 400px;
+    margin:  10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 144,.3);   
+    border: 1px solid rbg(165,42,42);
+}
